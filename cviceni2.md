@@ -44,6 +44,7 @@ Pokud chceme, aby  se některé slovo nedělilo, nastavíme ho celé bez dělen�
 Je možné modifikovat jednotlivé stránky.
 Stačí napsat znovu \pagestyle{none} na stránce, kde nechceme mít např. číslování.
 
+## Řádkování
 ### Zalovení řádku v odstavci - `\\`
 
 ### Odstavec bez zalomení na konci
@@ -51,5 +52,21 @@ Před odstavec vložit `\noindent`
 
 ### Nedělitelná mezera 
 Místo mezery se zapíše `~`.
-Například za  `šel jsem k~bazené`
+Například za  `šel jsem k~bazenu`
 
+
+## Zápis speciálních znaků
+```latex
+\ = $\backslash$
+~ = $\sim$
+# = \#
+% = \%
+```
+
+Další možnost je použít `\verb@...@`
+Všechny znaky mezi zavináči jsou brány jako obyčejný text.
+Místo zavináčů lze použít jakýkoli znak (ideálně speciální)
+```latex
+\verb%@%
+\verb@%@
+```
