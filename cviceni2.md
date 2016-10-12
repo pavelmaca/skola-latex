@@ -22,9 +22,10 @@ Nastavení pro celý dokument
 ```
 
 Uvnitř dokumentu (pokud latex nedělí slovo správně, nebo víme že použijeme jednou)
+
 ```latex
 Byl jsem tlumo\-čit v knihov\-ně.
-```latex
+```
 
 
 Pokud chceme, aby  se některé slovo nedělilo, nastavíme ho celé bez dělené v `\hyphenation`
@@ -32,6 +33,7 @@ Pokud chceme, aby  se některé slovo nedělilo, nastavíme ho celé bez dělen�
 ## Číslování stránek
 ```latex
 \pagestyle{styl}
+
 ```
 
 - empty = žádné
@@ -42,5 +44,12 @@ Pokud chceme, aby  se některé slovo nedělilo, nastavíme ho celé bez dělen�
 Je možné modifikovat jednotlivé stránky.
 Stačí napsat znovu \pagestyle{none} na stránce, kde nechceme mít např. číslování.
 
-## Zalovení řádku v odstavci - `\\`
+### Zalovení řádku v odstavci - `\\`
+
+### Odstavec bez zalomení na konci
+Před odstavec vložit `\noindent`
+
+### Nedělitelná mezera 
+Místo mezery se zapíše `~`.
+Například za  `šel jsem k~bazené`
 
