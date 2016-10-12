@@ -70,3 +70,10 @@ Místo zavináčů lze použít jakýkoli znak (ideálně speciální)
 \verb%@%
 \verb@%@
 ```
+
+## Nadpisy
+`\titul{Super nadpis}`  
+`\titul*{Super nadpis}` - nadpis bez číslování
+
+Úrovně nadpisu
+
