@@ -72,8 +72,25 @@ Místo zavináčů lze použít jakýkoli znak (ideálně speciální)
 ```
 
 ## Nadpisy
-`\titul{Super nadpis}`  
-`\titul*{Super nadpis}` - nadpis bez číslování
+`\chapter{Super nadpis}`  
+`\chapter*{Super nadpis}` - nadpis bez číslování
 
-Úrovně nadpisu
+```latex
+\chapter{Lorem}
+\section{nadpis s číslováním}
+\subsection{nadpis bez číslování}
+\subsubsection{podnadpis druhé úrovně}
+```
 
+## Vygenerování obsahu `\tableofcontents`
+Nutné dva průchody
+
+## Přílohy
+```latex
+\appendix
+\chapter{Seznam}
+\section{Materiál}
+Písek, cemnt, voda
+\section{Nářadí}
+Míchačka, lopata, kolečko
+```
